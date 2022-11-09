@@ -12,12 +12,12 @@ public class Samsung extends Smartphones implements Printable {
     @Override
     public void print() {
         System.out.println(
-                "Производитель " + getManufacturer() +
-                        "\nМодель " + model +
-                        "\nЭкран " + screen +
-                        "\nВерсия Galaxy " + versionGalaxy +
-                        "\nГод выпуска " + getYear() +
-                        "\nБатарея " + getBattery() +
-                        "\nКамера " + getCameraModel());
+                "РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ " + getManufacturer() +
+                        "\nРњРѕРґРµР»СЊ " + model +
+                        "\nР­РєСЂР°РЅ " + screen +
+                        "\nР’РµСЂСЃРёСЏ Galaxy " + versionGalaxy +
+                        "\nР“РѕРґ РІС‹РїСѓСЃРєР° " + getYear() +
+                        "\nР‘Р°С‚Р°СЂРµСЏ " + getBattery() +
+                        "\nРљР°РјРµСЂР° " + getCameraModel());
     }
 }

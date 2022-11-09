@@ -7,11 +7,11 @@ public class Pixel extends Smartphones implements Printable {
     @Override
     public void print() {
         System.out.println(
-                "Производитель " + getManufacturer() +
+                "РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ " + getManufacturer() +
                         "\nAndroid " + getVersionAndroid() +
-                        "\nГод выпуска " + getYear() +
-                        "\nБатарея " + getBattery() +
-                        "\nКамера " + getCameraModel()
+                        "\nР“РѕРґ РІС‹РїСѓСЃРєР° " + getYear() +
+                        "\nР‘Р°С‚Р°СЂРµСЏ " + getBattery() +
+                        "\nРљР°РјРµСЂР° " + getCameraModel()
         );
     }
 }

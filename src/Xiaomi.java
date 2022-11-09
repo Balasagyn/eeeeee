@@ -13,12 +13,12 @@ public class Xiaomi extends Smartphones implements Printable {
     public void print() {
 
         System.out.println(
-                "Производитель " + getManufacturer() +
-                        "\nМодель " + model +
-                        "\nВерсия MI " + versionMI +
-                        "\nГод выпуска " + getYear() +
-                        "\nБатарея " + getBattery() +
-                        "\nКамера " + getCameraModel()
+                "РџСЂРѕРёР·РІРѕРґРёС‚РµР»СЊ " + getManufacturer() +
+                        "\nРњРѕРґРµР»СЊ " + model +
+                        "\nР’РµСЂСЃРёСЏ MI " + versionMI +
+                        "\nР“РѕРґ РІС‹РїСѓСЃРєР° " + getYear() +
+                        "\nР‘Р°С‚Р°СЂРµСЏ " + getBattery() +
+                        "\nРљР°РјРµСЂР° " + getCameraModel()
         );
     }
 }
